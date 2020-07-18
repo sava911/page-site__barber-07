@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link
+  href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap"
+  rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+<body>
+  <header class="main-header">
+     <nav class="main-navigation "> 
+      <a href="" class="mianheader-logo">
+        <img
+        class="img-fluid"
+        src="img/index-logo.png"
+        width="368"
+        height="153"
+        alt=""
+        />
+      </a>
+      <div class="main-navigation-wrapper">
+        <div class="container">
+      <ul class="site-navigation">
+        <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
+        <li><a href="news.html">НОВОСТИ</a></li>
+        <li><a href="price.html">ПРАЙС-ЛИСТ</a></li>
+        <li><a href="catalog.html">МАГАЗИН</a></li>
+        <li><a href="contacts.html">КОНТАКТЫ</a></li>
+      </ul>
+      <ul class="user-navigation">
+        <li >
+          <a href="login.html" class="login-link">ВХОД</a>
+        </li >
+      </ul>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <h1 class="visually-hidden">БАРБЕРШОП «БОРОДИНСКИЙ»</h1>
+    <section class="features">
+      <h2 class="visually-hidden">Преимущества</h2>
+      <ul class="features-list">
+        <li class="features-item">
+          <h3>БЫСТРО</h3>
+          <p class="">
+            МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ —
+            СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+          </p>
+        </li>
+        <li class="features-item">
+          <h3>КРУТО</h3>
+          <p class="">
+            ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ
+            ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+          </p>
+        </li>
+        <li class="features-item">
+          <h3>ДОРОГО</h3>
+          <p class="">
+            НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО.
+            К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+          </p>
+        </li>
+      </ul>
+    </section>
+    <div class="index-columns">
+      <section class="news">
+        <h2>Новости</h2>
+        <ul class="news-list">
+          <li class="news-item">
+            <p>
+              НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ
+              СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+            </p>
+            <time datetime="2019-01-11">2019-01-11</time>
+          </li>
+          <li class="news-item">
+            <p>
+              В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ
+              МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+            </p>
+            <time datetime="2019-01-18">2019-01-18</time>
+          </li>
+        </ul>
+        <a href="news.html" class="button">ВСЕ НОВОСТИ</a>
+      </section>
+      <section class="gallery">
+        <h2>ФОТОГАЛЕРЕЯ</h2>
+        <div class="gallery-container">
+        <figure class="gallery-content">
+          <a href=""><img src="img/foto_gallery1.jpg" alt="" class=""/></a>
+        </figure>
+        <button type="button" class="button gallery-button gallery-button-back" disabled>НАЗАД</button>
+        <button type="button" class="button gallery-button gallery-button-next">ВПЕРЕД</></button>
+     </div>
+      </section>
+    </div>
+    <div class="index-columns">
+    <section class="contacts">
+      <h2>КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+      <p>
+        БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+         АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+        ТЕЛЕФОН: +7 (495) 666-02-66
+      </p>
+      <p>ВРЕМЯ РАБОТЫ:<br>
+        ПН—ПТ: С 10:00 ДО 22:00<br>
+        СБ—ВС: С 10:00 ДО 19:00
+      </p>
+      <a href="map.html" class="button">КАК ПРОЕХАТЬ</a>
+      <a href="contacts.html" class="button">ОБРАТНАЯ СВЯЗЬ</a>
+      </section>
+      <secton class="appointment">
+        <h3>ЗАПИСАТЬСЯ</h3>
+        <p class="appointment-info">
+          УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ
+          БРОНИ
+        </p>
+        <form action="#" method="POST" class="appointment-form">
+          <p class="appointment-item">
+            <label for="appointment-date">ДАТА </label>
+            
+            <input id="appointment-date"  type="text" placeholder="08.10.2019" name="date">
+          </p>
+          <p class="appointment-item">
+            <label for="appointment-time"> ВРЕМЯ</label>
+            
+            <input id="appointment-time"  type="text" placeholder="10:00" name="time">
+          </p>
+          <p class="appointment-item">
+            <label for="appointment-name"> ВАШЕ ИМЯ</label>
+            
+            <input id="appointment-name"  type="text" placeholder="Борода" name="name">
+          </p>
+          <p class="appointment-item">
+            <label for="appointment-phone">ТЕЛЕФОН</label>
+            
+            <input id="appointment-phone" type="tel" placeholder="+71234567890" name="phone">
+          </p>
+          <button class="button" type="submit">Отправить</button>
+        </form>
+      </secton>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+      <p class="footer-contacts">
+        БАРБЕРШОП «БОРОДИНСКИЙ»<br />
+        АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д.19/8 <br />
+        <a href="contacts.html">КАК НАС НАЙТИ?</a><br />
+        ТЕЛЕФОН: +7 (495)666-02-66
+      </p>
+      <div class="footer-social">
+        <b>ДАВАЙТЕ ДРУЖИТЬ!</b>
+        <ul>
+          <li><a href="#" class="social-button"><span class="visually-hidden">Вк</span>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="15" viewBox="0 0 27 15"><g><g><image width="27" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAPCAYAAAAVk7TYAAAB1klEQVQ4T5WUPWhUURCFv2M6BRVtRPAH0SCiaBMQIpgEGwsllTGFhYqN2IpFtAkmAcFyBUFiFbBSMcFGQhRShKQRQwp/ChtBbEQRRJsjs9zVt9f7suxU++aeO9/M7NyR7QPAcaCHf7Yiaa31aXscGAX2VzTxc1LSWNVnuxc4lOni87VsPwAuZ4c/gN2Svobfdj8wA+zJdK8kDWSwZaCvAJsOWByEILcbku5UqosKbq8HS0ktFmKFa1gp85fAyUz0Gdgn6WfSjACPOsDmgaECbEHSUAsWrVgoiG5KmkiwYeBJHcz2GeBZIcZ34Kikj01YCvYCOJWJvwG9kr7YvghMl2C2twJvgF0F2KikZkeqsMMxMdlUhmYu+g1MAdezYO8ia+AxcLoAaki61vL/haXqGsDVwqXIei+wuaZNJf/b1L5fdbBtwCqws2aiunGPSZqsXmirLFU3CMRU/XfWDQn4BAxI+lCsrDIssTFudRm8JG8DFrO3vQF4CsQ4d7IlYBNwpEYYwBNto58LbW8EHgLn1qH9BnYAMQTPC4uhdXWlCeyUtu1LwF0g3lJu7yXF4o39uQWITXSsJuZER1gKtB24ApwFDgLR5rBZSRcq/3U8gXvA+cJ7vf8Hg36gLHEQ+0AAAAAASUVORK5CYII="/></g></g></svg>
+        </a></li>
+          <li><a href="#" class="social-button"><span class="visually-hidden">фейсбук</span>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="22" viewBox="0 0 11 22"><g><g><image width="11" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAWCAYAAAAW5GZjAAAAo0lEQVQ4T+3SMQrCQBCF4X88h52tEOw9g/b2sYiNh7Cws7LxArZaCbmD4CE8gnWeCG6MA1HGtG63sx/L28cajSWpB8yBBTBsngFHc3gH5A6l7QtLyoBLC3yM33ABbB0WcAUqoKxjSFoCG4dnZrZPs294ZGZ1tBiWtALGQB8YuBhn4PacnUzSAZh+aCEdrSO4iOBJ7IEpUEvPHar73/zzr4tUdweWeW9dgHOKQwAAAABJRU5ErkJggg=="/></g></g></svg>
+          </a></li>
+          <li><a href="#" class="social-button"><span class="visually-hidden">Инст</span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><g><g><image width="20" height="20" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABPUlEQVQ4T62VzypGQRjGf0+ShQ0pfzaSRIqNhTuwcgFKcQPKnizFXrkByh1YuQMLGzakvrJB+cLCBvVqppmaznfmfCfnzPK8Z3498z7PvCMz2wBOgTGarS6wIzN7awEWpXQd0BoIWwRegBGg4zhNgaOSPhwoCmsKnJXUMbNJ4LkNhT3d6qfwCTgArsLONeAQmM71vQroYKuSXtPNZjYBXOegVcBtSedlSsxsCzgrq6XAGeATcLkcAKYkuUj0rMSEX2DcmQy8F03xETCzb2CwJvAHGJK8Lp/nVGEE3gJLQJ0j30lazuUwAveAI6COKfuSjvsBh4EbYD5Ac7F5AFYkfVUCQ3EOuAzQMl8cbF3SYyxme5j84JTuApvAQvh+D1wAJ1FZbWAhzPIOStnJVKbQX/T/jLLicGh9wLb6BPwB7ozaT8AHkzcAAAAASUVORK5CYII="/></g></g></svg>
+          </a></li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        <b>ДАВАЙТЕ ДРУЖИТЬ!</b>
+        <a href="#" class="button">SAVCHENKO A</a>
+      </p>
+      </div>
+    </footer>
+
+    <section class="modal modal-login">
+      <h2>ЛИЧНЫЙ КАБИНЕТ</h2>
+      <p class="modal-description">Введите пожалуйста свой логин и пароль.</p>
+      <form action="#" method="POST" class="login-form">
+        <p>
+          <label for="user-login" class="visually-hidden">ЛОГИН</label>
+          <input placeholder="ЛОГИН" type="text" name="login" class="login-icon-user" id="user-login">
+          
+        </p>
+        <p>
+          <label for="user-password" class="visually-hidden">ПАРОЛЬ</label>
+          <input placeholder="ПАРОЛЬ" name="password"  type="text" class="login-icon-password" id="user-password">
+        </p>
+        
+        <p class="login-help">
+          <label class="login-checkbox" >
+            <input name="remember" placeholder="" class="visually-hidden"  type="checkbox" ">
+            <span  class="checkbox-indicator"></span>
+            ЗАПОМНИТЕ МЕНЯ
+          </label>
+          <a href="3" class="restore">Я ЗАБЫЛ ПАРОЛЬ!</a>
+        </p>
+        <button class="button" type="submit">ВОЙТИ</button>
+      </form>
+
+
+      <button type="submit" class="modal-close">ЗАКРЫТЬ</button>
+    </section>
+
+    <section class="modal modal-map">
+      <h2 class="visually-hidden">Как до нас добраться?</h2>
+      <p>
+        <img src="img/map.jpg" width="780" height="560" alt="АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д.19/8">
+      </p>
+      <button type="submit" class="modal-close">ЗАКРЫТЬ</button>
+    </section>
+    <!-- <div class="modal-overlay"></div> -->
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+  </html>
+  
